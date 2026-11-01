@@ -1,0 +1,2 @@
+digraph G { graph [bgcolor="white",pad="0.3",ranksep="0.55"]; node [shape=box,style="rounded,filled",fontname="Arial",fontsize=10,color="#24415c",fillcolor="#eaf2f8"]; edge [fontname="Arial",fontsize=9,color="#345"] rankdir=LR; a [label="Synthetic logs",fillcolor="#f9e79f"]; b [label="Copy to evidence
+read-only workflow"]; c [label="SHA-256 hash"]; d [label="Register + notes"]; e [label="Analyze copies"]; a->b->c->d->e; }

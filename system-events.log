@@ -1,0 +1,7 @@
+# SYNTHETIC SIMULATION DATA — harmless event records only
+2026-11-01T09:00:00Z mail-gateway EVENT attachment=invoice_review.zip sender=vendor-example.test recipient=employee1 disposition=DELIVERED
+2026-11-01T09:03:22Z workstation-07 PROCESS parent=explorer.exe image=invoice_review.exe path=C:\Users\employee1\Downloads\invoice_review.exe sha256=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2026-11-01T09:03:24Z workstation-07 PROCESS image=cmd.exe command="echo SIMULATION_ONLY" parent=invoice_review.exe
+2026-11-01T09:18:10Z workstation-07 FILE action=RENAME path=/shared/finance/Q4_budget.xlsx new_name=Q4_budget.xlsx.simulated-lock
+2026-11-01T09:18:11Z workstation-07 FILE action=RENAME path=/shared/finance/payroll.xlsx new_name=payroll.xlsx.simulated-lock
+2026-11-01T09:19:00Z file-server-01 ALERT name=SIMULATED_FILE_MODIFICATION_BURST count=42 window=60s

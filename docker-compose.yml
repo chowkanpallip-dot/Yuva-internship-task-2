@@ -1,0 +1,21 @@
+services:
+  workstation:
+    image: alpine:3.20
+    command: ["sh", "-c", "echo 'Synthetic workstation container; no real endpoint activity' && sleep 3600"]
+    networks: [user_net]
+  file-server:
+    image: alpine:3.20
+    command: ["sh", "-c", "echo 'Synthetic file server container; no real file sharing' && sleep 3600"]
+    networks: [server_net]
+  log-collector:
+    image: alpine:3.20
+    command: ["sh", "-c", "echo 'Synthetic log collector container' && sleep 3600"]
+    networks: [user_net, server_net]
+  investigation:
+    image: python:3.12-alpine
+    command: ["python", "-c", "import time; print('Investigation workstation ready'); time.sleep(3600)"]
+    networks: [user_net]
+networks:
+  user_net:
+  server_net:
+    internal: true

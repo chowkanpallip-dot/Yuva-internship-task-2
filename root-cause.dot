@@ -1,0 +1,4 @@
+digraph G { graph [bgcolor="white",pad="0.3",ranksep="0.55"]; node [shape=box,style="rounded,filled",fontname="Arial",fontsize=10,color="#24415c",fillcolor="#eaf2f8"]; edge [fontname="Arial",fontsize=9,color="#345"] root [label="Simulated root cause:
+phishing attachment accepted",fillcolor="#fadbd8"]; a [label="Email control gap"]; b [label="User awareness gap"]; c [label="No MFA / broad access"]; d [label="Insufficient endpoint
+file-change detection"]; e [label="Recovery validation
+not demonstrated"]; root->a; root->b; root->c; root->d; root->e; }

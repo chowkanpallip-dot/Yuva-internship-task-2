@@ -1,0 +1,4 @@
+Evidence ID,Description,Collection method,Timestamp,Source system,SHA-256,Analyst notes
+E-001,Synthetic authentication events,Copied from synthetic log set,2026-11-01T10:30:00Z,simulation-host,c65a53a21e581060b6526c9d1e58351fe56b049e0a466d0de9e76273bf8229fe,Clearly labelled synthetic; no real endpoint collection.
+E-002,Synthetic process and file activity,Copied from synthetic log set,2026-11-01T10:30:00Z,simulation-host,138005bf7aac1914a549bca0a445cc58620eaa08d88ecf5519c0df694cc1f551,Clearly labelled synthetic; no real endpoint collection.
+E-003,Synthetic network events,Copied from synthetic log set,2026-11-01T10:30:00Z,simulation-host,2afc1063746a63ba683e9994829a1cbdb9af5c90c02f47bdd4396606f666ec95,Clearly labelled synthetic; no real endpoint collection.

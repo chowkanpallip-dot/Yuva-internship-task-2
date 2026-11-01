@@ -1,0 +1,5 @@
+digraph G { graph [bgcolor="white",pad="0.3",ranksep="0.55"]; node [shape=box,style="rounded,filled",fontname="Arial",fontsize=10,color="#24415c",fillcolor="#eaf2f8"]; edge [fontname="Arial",fontsize=9,color="#345"] internet [label="Email / external
+(simulated)",fillcolor="#fdebd0"]; ws [label="Employee workstation
+workstation-07",fillcolor="#d5f5e3"]; fs [label="Shared file server
+file-server-01",fillcolor="#f5eef8"]; log [label="Log collector
+synthetic events",fillcolor="#f9e79f"]; inv [label="Investigation workstation",fillcolor="#d6eaf8"]; internet->ws [label="phishing delivery"]; ws->fs [label="SMB access"]; ws->log [label="events"]; fs->log [label="alerts"]; inv->log [label="analysis"]; }

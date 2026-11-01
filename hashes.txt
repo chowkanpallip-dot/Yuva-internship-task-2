@@ -1,0 +1,5 @@
+$ python3 scripts/hash_verification.py sample-logs/*.log
+
+c65a53a21e581060b6526c9d1e58351fe56b049e0a466d0de9e76273bf8229fe  sample-logs/authentication.log
+2afc1063746a63ba683e9994829a1cbdb9af5c90c02f47bdd4396606f666ec95  sample-logs/network-events.log
+138005bf7aac1914a549bca0a445cc58620eaa08d88ecf5519c0df694cc1f551  sample-logs/system-events.log

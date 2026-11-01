@@ -1,0 +1,5 @@
+digraph G { graph [bgcolor="white",pad="0.3",ranksep="0.55"]; node [shape=box,style="rounded,filled",fontname="Arial",fontsize=10,color="#24415c",fillcolor="#eaf2f8"]; edge [fontname="Arial",fontsize=9,color="#345"] rankdir=LR; a [label="Correlated indicators?"]; b [label="Declare incident
+& preserve evidence"]; c [label="Isolate workstation
+& restrict shares"]; d [label="Eradicate and reset
+synthetic state"]; e [label="Restore clean files
+& validate"]; a->b [label="yes"]; b->c->d->e; a->e [label="no: monitor / close"]; }

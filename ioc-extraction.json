@@ -1,0 +1,32 @@
+$ python3 scripts/ioc_extractor.py sample-logs
+
+{
+  "synthetic_input": true,
+  "iocs": [
+    {
+      "category": "IP",
+      "indicator": "192.0.2.55",
+      "status": "synthetic documentation address"
+    },
+    {
+      "category": "domain",
+      "indicator": "update-check.example.test",
+      "status": "synthetic documentation domain"
+    },
+    {
+      "category": "sha256",
+      "indicator": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": "synthetic test hash"
+    },
+    {
+      "category": "process",
+      "indicator": "cmd.exe",
+      "status": "simulation event"
+    },
+    {
+      "category": "process",
+      "indicator": "invoice_review.exe",
+      "status": "simulation event"
+    }
+  ]
+}

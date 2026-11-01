@@ -1,0 +1,7 @@
+# SYNTHETIC SIMULATION DATA — not collected from a real organization
+2026-11-01T09:02:11Z workstation-07 AUTH user=employee1 result=SUCCESS source=10.20.10.25 method=interactive
+2026-11-01T09:14:37Z workstation-07 AUTH user=employee1 result=FAIL source=10.20.10.25 method=interactive reason=impossible-travel-context
+2026-11-01T09:16:02Z file-server-01 AUTH user=employee1 result=FAIL source=10.20.10.25 method=SMB reason=stale-token
+2026-11-01T09:17:49Z file-server-01 AUTH user=svc_backup result=FAIL source=10.20.10.25 method=SMB reason=unexpected-user-agent
+2026-11-01T09:21:08Z file-server-01 AUTH user=employee1 result=SUCCESS source=10.20.10.25 method=SMB
+2026-11-01T09:23:54Z file-server-01 AUTH user=employee1 result=FAIL source=10.20.10.25 method=SMB reason=account-disabled

@@ -1,0 +1,4 @@
+# SYNTHETIC SIMULATION DATA — reserved documentation address only
+2026-11-01T09:04:01Z workstation-07 NET dst=192.0.2.55:443 domain=update-check.example.test bytes=1842 verdict=SIMULATION_SUSPICIOUS
+2026-11-01T09:16:44Z workstation-07 NET dst=192.0.2.55:445 domain=none bytes=812 verdict=SIMULATION_LATERAL_MOVEMENT_ATTEMPT
+2026-11-01T09:20:02Z file-server-01 NET dst=10.20.10.25:445 protocol=SMB bytes=9211 verdict=SIMULATION_UNUSUAL_ACCESS

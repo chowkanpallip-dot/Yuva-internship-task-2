@@ -1,0 +1,6 @@
+SIMULATION ONLY
+1. Mark workstation-07 as isolated in the case record.
+2. Block synthetic destination 192.0.2.55 in the simulated policy.
+3. Disable employee1 only in the simulated identity record.
+4. Preserve logs and hashes before cleanup.
+No real account, interface, firewall, or process was changed.
